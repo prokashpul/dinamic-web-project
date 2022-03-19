@@ -5,6 +5,12 @@
   position: fixed;
   top: 0;
   z-index: 111;
+  transition: var(--transition);
+}
+/* window-scroll */
+.window-scroll {
+  background-color: var(--color-nav-bg);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 .navbar-container {
   display: flex;

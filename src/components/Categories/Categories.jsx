@@ -21,7 +21,7 @@ const Categories = () => {
             saepe repellendus unde rerum veniam vel cupiditate modi, illum
             inventore nihil nesciunt!
           </p>
-          <a href="/home" className="btn">
+          <a href="/home" className="btn btn-primary">
             Learn More
           </a>
         </div>
