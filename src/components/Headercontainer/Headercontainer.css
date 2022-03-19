@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
   position: relative;
-  top: 5rem;
+  /* top: 5rem; */
   align-items: center;
 }
 .header-container p {
