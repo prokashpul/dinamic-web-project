@@ -31,7 +31,7 @@ body {
   margin: 0 auto;
 }
 section {
-  padding: 6rem 0;
+  padding-top: 6rem;
 }
 h1,
 h2,
@@ -67,9 +67,9 @@ img {
 .btn {
   background-color: var(--color-light);
   color: var(--color-black);
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   border: 1px solid transparent;
-  border-radius: 10px;
+  border-radius: 0.2rem;
   display: inline-block;
   font-weight: 500;
   transition: var(--transition);
@@ -88,5 +88,8 @@ img {
   .container {
     width: var(--container-width-sm);
     margin: 0 auto;
+  }
+  section {
+    padding: 2rem 0;
   }
 }
