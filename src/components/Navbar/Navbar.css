@@ -27,3 +27,10 @@
 .navbar-container button {
   display: none;
 }
+.logo span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo sub {
+  font-size: 0.5rem;
+}

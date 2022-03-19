@@ -1,0 +1,16 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+  position: relative;
+  top: 5rem;
+  align-items: center;
+}
+.header-container p {
+  margin: 2rem 0;
+}
+@media (max-width: 678px) {
+  .header-container {
+    grid-template-columns: 1fr;
+  }
+}

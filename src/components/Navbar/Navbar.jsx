@@ -7,11 +7,12 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="container navbar-container">
-        <h2 className="logo">
+        <div className="logo">
           <a href="http://">
-            Proweb<sup>BD</sup>
+            <span>Proweb</span>
+            <sub>BD</sub>
           </a>
-        </h2>
+        </div>
         <ul className="nav-items">
           <li>
             <a href="/home">Home</a>
