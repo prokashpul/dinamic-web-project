@@ -12,5 +12,6 @@
 @media (max-width: 678px) {
   .header-container {
     grid-template-columns: 1fr;
+    top: 5rem;
   }
 }
