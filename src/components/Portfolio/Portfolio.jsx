@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Portfolio.css";
 import JsonData from "../data/portfilio.json";
 import Singleportfolio from "../Singleportfolio/Singleportfolio";
