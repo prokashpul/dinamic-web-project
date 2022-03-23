@@ -1,15 +1,23 @@
-.question-ans {
-  display: flex;
-  justify-content: space-between;
-}
-/* faq section */
-.faq {
+.faq-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
+  gap: 1rem;
+  margin-bottom: 50px;
 }
-@media (max-width: 678px) {
-  .faq {
-    grid-template-columns: 1fr;
-  }
+
+.faq {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  gap: 1.4rem;
+  height: fit-content;
+  cursor: pointer;
+  background-color: var(--color-success);
+}
+.faqs h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+.faq .svg-inline--fa {
+  font-size: 1.5rem;
 }
