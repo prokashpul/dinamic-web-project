@@ -9,11 +9,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
+  position: relative;
 }
 .portfolio {
   background-color: var(--color-success);
   transition: var(--transition);
   border: 1px solid transparent;
+  padding-bottom: 50px;
 }
 .portfolio:hover {
   background-color: transparent;

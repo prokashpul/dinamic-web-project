@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Singleporttfolio.css";
 const Singleportfolio = (props) => {
   const { image, name, details, url } = props.portfolio;
   return (
