@@ -11,7 +11,7 @@ const Navbar = () => {
       .classList.toggle("window-scroll", window.scrollY > 0);
   });
   return (
-    <nav className={!show ? "navbar menu-open" : "navbar "}>
+    <nav className="navbar">
       <div className="logo">
         <a href="http://">
           <span>Proweb</span>
@@ -25,7 +25,8 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faXmark} />
         )}
       </div>
-      <ul>
+
+      <ul className={!show ? "navbar menu-open" : ""}>
         <li>
           <a href="/">Home</a>
         </li>
